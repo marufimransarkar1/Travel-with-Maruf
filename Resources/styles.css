@@ -437,6 +437,7 @@ align-items: flex-end;
 justify-content: end;
 }
 .rit{
+    margin-bottom: 50px;
     width: 324px;
 height: 120px;
 transform: rotate(-19.628deg);
@@ -492,4 +493,87 @@ padding: 24px;
     font-size: 26px;
     padding: 10px;
     color: black;
+}
+
+@media screen and (max-width: 576px) {
+    .site-menu ul{
+        display: none;
+    }
+    .hambarger-menu{
+        display: block;
+    }
+    nav{
+        padding: 10px 0;
+    }
+    header{
+        padding: 0 10px;
+    }
+    .header-sec{
+        width: 100%;
+    }
+    .header-overlay{
+        padding: 5px;
+    }
+    .header-form{
+        flex-direction: column;
+    }
+    section{
+        margin: 50px 10px;
+    }
+    .our-pop-tour{
+        flex-direction: column;
+    }
+    .gal{
+        flex-direction: column;
+    }
+    .gal .img1,.gal .img2,.gal .img3{
+        width: auto;
+    }
+    .w-c-u1{
+        flex-direction: column;
+        width: 100%;
+    }
+    .wcubox{
+        width: auto;
+    }
+    .sec-right img{
+        width: 100%;
+    }
+    .dnd{
+        width: auto;
+    }
+    .dnd-box{
+        width: 93%;
+    flex-shrink: 0;
+    padding: 5px;
+    margin: 5px;
+    }
+    .aspp{
+        flex-direction: column;
+    }
+    .aspp-right{
+        padding: 70px 30px;
+    }
+    .newsltr{
+        flex-direction: column;
+    }
+    .newsltr-left{
+        width: auto;
+    }
+    .newsltr-left input{
+        width: 100%;
+    }
+    .newsltr-left button {
+        width: 100%;
+    }
+    .newsltr-right {
+        width: auto;
+    }
+    footer {
+        padding: 110px 10px;
+    }
+    
+    .footer-desc {
+    width: auto;
+    }
 }
