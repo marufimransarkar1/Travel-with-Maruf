@@ -141,6 +141,7 @@ padding-bottom: 42px;
     border-radius: 8px;
 background: #FF5400;
 color: #FFF;
+cursor: pointer;
 text-align: center;
 font-family: Mulish;
 font-size: 16px;
@@ -285,6 +286,39 @@ font-style: normal;
 font-weight: 400;
 line-height: 26px; /* 162.5% */
 }
+
+.travel-tips {
+    text-align: center;
+    padding: 50px 0;
+}
+.tip-box-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.tip-box {
+    flex: 1;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.tip-title {
+    font-size: 24px;
+    color: #333;
+    padding-bottom: 24px;
+}
+
+.tip-descr {
+    font-size: 16px;
+    color: #666;
+}
+
+
+
+
 .dls-n-dis{
     text-align: center;
 }
@@ -535,6 +569,9 @@ padding: 24px;
     }
     .wcubox{
         width: auto;
+    }
+    .tip-box-container{
+        flex-direction: column;
     }
     .sec-right img{
         width: 100%;
